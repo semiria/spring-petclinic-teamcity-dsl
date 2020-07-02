@@ -21,6 +21,7 @@ changeVcsRoot(RelativeId("PetclinicVcs")) {
     }
 
     (this as GitVcsRoot).apply {
+        branch = "refs/heads/main"
         authMethod = password {
             userName = "semiria"
             password = "credentialsJSON:6a613caa-9de0-445c-8c12-0e0e39497940"
